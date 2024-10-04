@@ -45,9 +45,9 @@ Gradiente linear: #BAC8E2, #C4D1E2, #EDEEF0;
         width: 50%;
         height: 100%;
     }
-        body {
+        html, body, main{
             background-image: linear-gradient(to bottom, #010A26, #4465A6, #698EBF);
-            background-size: cover;
+            background-size: contain;
         }
         div#formulario > p{
             font-size: 1.3em;
