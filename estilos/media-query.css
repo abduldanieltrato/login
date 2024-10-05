@@ -21,6 +21,12 @@ Gradiente linear: #BAC8E2, #C4D1E2, #EDEEF0;
 
     }
 
+    div#formulario > p {
+        font-size: 1em;
+    }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
     section#login > div#imagem {
         height: 100%;
         width: 40%;
