@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperação de palavra-passe</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Login.php</title>
 </head>
 <body>
     <h1>
-        Coloque os dados de validação
+        Login realizado com sucesso!
     </h1>
 </body>
 </html>

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*
+/* gradiente-linear: #010A26, #4465A6, #698EBF, #B4C4D9, #F2F2F2;
 PALETA DE CORES
 Roxo: #010A26;
 Decrescente: #4465A6;
@@ -9,3 +9,55 @@ Quase Branco: #B4C4D9;
 Leite: #F2F2F2;
 Gradiente linear: #BAC8E2, #C4D1E2, #EDEEF0;
 */
+
+@media screen and (min-width: 668px) and (max-width: 892px) {
+    section#login {
+        width: 80vw;
+        height: 500px;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+
+
+
+    }
+
+    section#login > div#imagem {
+        height: 100%;
+        width: 40%;
+        background-position: top right;
+        float: left;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
+        height: 100%;
+        background-image: linear-gradient(to left, #4465A6, #698EBF, #B4C4D9, #F2F2F2, white);
+    }
+}
+
+@media screen and (min-width: 892px) {
+    section#login {
+        width: 950px;
+        background-image: linear-gradient(to right, 
+            #4465A6,
+            #698EBF,
+            #B4C4D9,
+            #F2F2F2, white);
+    }
+
+    section#login > div#imagem {
+        float: right;
+        height: 100%;
+        width: 50%;
+        background-position: left top;
+        box-shadow: none;
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+
