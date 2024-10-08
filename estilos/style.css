@@ -18,7 +18,7 @@ Gradiente linear: #BAC8E2, #C4D1E2, #EDEEF0;
 }
 
 body, html {
-    background-color: #4465A6;
+    background-image: linear-gradient(to bottom, #010A26, #4465A6, #698EBF, #B4C4D9);
     height: 100vh;
     width: 100vw;
 }
@@ -29,9 +29,9 @@ main {
     position: relative;
 }
 
-section#login {
-    background-color: #F2F2F2;
-    width: 260px;
+section#login {    
+    background-image: linear-gradient(to bottom, #010A26, #4465A6, #698EBF, #B4C4D9);
+    width: 300px;
     height: 500px;
     border-radius: 20px;
     top: 50%;
@@ -45,7 +45,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #4465A6 url(../metal/extrutura_zero.jpg);
+    background: #010A26 url(../metal/extrutura_zero.jpg);
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
