@@ -68,3 +68,11 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+#isenha {
+    border-radius: 8px;
+}
+
+#ilogin {
+    border-radius: 8px;
+}
