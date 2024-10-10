@@ -33,7 +33,7 @@ main {
 section#login {    
     background-image: linear-gradient(to bottom, #010A26, #4465A6, #698EBF, #B4C4D9);
     width: 300px;
-    height: 485px;
+    height: 505px;
     border-radius: 20px;
     top: 50%;
     left: 50%;
@@ -145,4 +145,8 @@ div.campo > input {
 
 p#entrada {
     margin-bottom: 10px;
+}
+
+#boas_vindas {
+    padding: 10px;
 }
