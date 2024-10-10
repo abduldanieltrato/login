@@ -14,6 +14,7 @@ Gradiente linear: #BAC8E2, #C4D1E2, #EDEEF0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
@@ -32,7 +33,7 @@ main {
 section#login {    
     background-image: linear-gradient(to bottom, #010A26, #4465A6, #698EBF, #B4C4D9);
     width: 300px;
-    height: 500px;
+    height: 485px;
     border-radius: 20px;
     top: 50%;
     left: 50%;
@@ -69,10 +70,79 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
-#isenha {
+form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(121, 64, 43);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+}
+
+form input[type=submit]:hover {
+    background-color: rgba(121, 64, 43, 0.548);
+}
+
+form a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(53, 27, 18, 0.726);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 5px;
+}
+
+form a.botao > i {
+    font-size: 0.8em;
+}
+
+form a.botao:hover {
+    background-color: rgba(121, 64, 43, 0.171);
+}
+
+form > div.campo {
+    background-color: #051742;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    padding: 10px 0px;
+}
+
+form label {
+    display: none;
+}
+
+div.campo > i {
+    font-size: 2em;
+    color: white;
+    background-color: rgba(17, 3, 68, 0.747);
+    width: 40px;
+    padding: 0px;
+    border-radius: 8px;
+    transform: translateY(-9px);
+
+}
+
+div.campo > input {
+    background-color: #051742;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: calc(100% - 45px);
+    transform: translateY(-40%);
     border-radius: 8px;
 }
 
-#ilogin {
-    border-radius: 8px;
+p#entrada {
+    margin-bottom: 10px;
 }
